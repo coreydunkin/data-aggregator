@@ -1,3 +1,16 @@
+# Setup and run
+
+To set up, please use cmd or terminal to install all node dependancies:
+```
+cd path/to/data-aggregator
+npm install
+```
+To run, type inside cmd or terminal the following:
+```
+npm start
+```
+
+## Project Summary
 
 We are collecting temperature data about fridges in a supermarket. Imagine we have data from different fridge sensors aggregated into a single JSON array (where an individual sensor is identified by an id):
 
@@ -26,3 +39,5 @@ Create an application that outputs the average, median and mode temperature for 
 {"id":"a","average":3.78,"median":3.65,"mode":[3.53]},
 {"id":"b","average":4.08,"median":4.14,"mode":[4.15]}]
 ```
+
+The working js is inside App.js and outputs directly to html.
